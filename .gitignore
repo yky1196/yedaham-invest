@@ -1,0 +1,17 @@
+# 실데이터는 저장소에 넣지 않는다
+data/
+_recalc/
+*.xlsx
+*.xls
+*.pdf
+*.hwp
+*.json.local
+golden*.json
+
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+.env

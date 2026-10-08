@@ -1,0 +1,20 @@
+[project]
+name = "yedaham-invest"
+version = "0.1.0"
+description = "더케이예다함상조 대체투자 관리 시스템 — CF 엔진·펀드 마스터"
+requires-python = ">=3.11"
+dependencies = ["openpyxl>=3.1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
